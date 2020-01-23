@@ -1,0 +1,538 @@
+:root {
+    --primary: #3ca6f8;
+    --second: #56e3e8;
+    --third: #000000d8;
+    --white:rgb(240, 231, 231);
+}
+
+html { 
+    font-family: 'Roboto', 'sans-serif'
+    }
+
+
+body{
+    background: var(--write);
+    width: 100%;
+}
+
+.btn_content_top{
+    background: var(--primary);
+    border:1px var(--primary);
+
+}
+.btn_content_top:hover{
+    background: var(--third);
+}
+#h6_content_top{
+    color: var(--second);
+}
+
+.z-depth-1{
+width: 100%;
+}
+
+
+.wallpaper-home{
+    width: 100%;
+    max-height: 550px;
+    z-index: 1;
+}
+
+
+
+.title{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 600;
+    font-size: 42px;
+    margin-top: 10%;
+}
+
+.text{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3 {
+    margin-bottom: 0x;
+}
+
+.h2-responsive{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom:-0px;
+}
+
+/* .svg-separator{
+    display: block;
+    background: 0 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20;
+    z-index: 9;
+    -webkit-transform: translateY(-100%) translateY(2px);
+    transform: translateY(-100%) translateY(2px);
+    width: 100%;
+  }
+
+  .sep4 {
+    transform: translateY(-100%) translateY(2px) scale(1,1);
+    transform-origin: top;
+  }
+
+.path1{
+    fill: #fff;
+}
+
+.path2{
+    opacity: 1;fill: #3ca6f8;
+}
+
+.path3{
+    opacity: 1;fill: #56e3e8;
+} */
+
+    svg{
+        position:absolute;
+        bottom:-10px; left:0;
+        width:100%; height:100px;
+        top: 452px;
+        display:block;
+    }
+
+    svg path{
+    fill: #134da5;
+    }
+
+@media only screen and (max-width: 600px) {
+    .text{
+        display: none;
+    }
+    .title{
+        display: none;
+    }
+    .carousel-control-next-icon{
+        display: none;
+    }
+}
+
+
+
+/* ---------------------- */
+
+.alinhar-imagem-solucoes{
+    align-content: right;
+}
+
+.content_products{
+    position: relative;
+    max-height: 400px;
+    color:white;
+    width: 100%;
+    align-content: center;
+}
+
+#title_content_products{
+    margin-top:20px;
+    padding-top: 30px;
+    text-align: center;
+    color:var(--second);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 34px;
+}
+
+
+.subtitle{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.solutions_icons p{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.solutions_icons img{
+    padding-left: 20px;
+}
+
+.subtitle strong{
+    color: #56e3e8;
+}
+
+.solutions_icons .borda{ 
+    background-image: linear-gradient(to right, #29eef5 , #1d8bdf);
+    height: 5px;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 5rem;
+    border: 0px solid #dee2e6!important;
+ }
+
+ .solucoes_title{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+ }
+
+ .solucoes_title strong{
+     color: #56e3e8;
+ }
+
+@media only screen and (max-width: 600px) {
+
+    #title_content_products{
+        font-size: 24px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      font-weight: 500;
+      padding: 0px;
+      text-align: center;
+    }
+
+    .solutions_icons img{
+        margin-top: 10px;
+        max-width: 70px;
+    }
+
+    .solutions_icons .borda{ 
+        display: none;
+     }
+
+    .solutions_icons p{
+        display: none;
+    }
+
+    .content_products{
+        height: 250px;
+    }
+
+  }
+.solutions_icons{
+    text-align: center;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+/* Album */
+
+img{ max-width:100%;}
+
+.gallery_box li{ width:33.333333%; max-width: 100% ; display:inline-block; float: left; text-align: center; overflow: hidden;    position: relative;}
+.gallery_box{ padding:0;display: flow-root;}
+
+
+.boxtitle{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px black; 
+    color: rgb(219, 219, 219);
+}
+
+.gallery_box li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gallery_box li img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+.gallery_box li:nth-child(even) {
+    height: 320px;
+}
+.gallery_box li:nth-child(odd) {
+    height: 320px; 
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .gallery_box li:nth-child(even) {
+        height: 250px;
+    }
+    .gallery_box li:nth-child(odd) {
+        height: 250px; 
+    }
+}
+
+@media only screen and (max-width: 800px) {
+.gallery_box li:nth-child(even) {
+    height: 280px;
+}
+.gallery_box li:nth-child(odd) {
+    height: 280px; 
+}
+.gallery_box li{ 
+    width:100%; 
+}
+.gallery_box{ padding:0;display: flow-root;}
+}
+
+
+
+.gallery_box li:nth-child(odd) .box_data{ background:rgba(0, 0, 0, 0.322) }
+.gallery_box li:nth-child(even) .box_data{ background:rgba(0, 0, 0, 0.322) }
+.gallery_box .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:#fff;}
+.gallery_box .box_data span{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.gallery_box li:hover .box_data{ background: #156caf94;;}
+
+
+
+
+.ajuste_logo img{
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.ajuste_logo img:hover{
+    -webkit-filter: none;	
+	filter: none;	
+}
+.bg_marcas{
+   
+    background-image: url('../body//image/confia.png');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}
+
+/* background-color: rgb(61, 61, 61);
+text-align: center;
+margin-top: 150px;
+transform: skewY(1.5deg);
+transform-origin: 110%; */
+
+.bg_marcash1 h1{
+    font-size: 42px;
+    font-weight: 300;
+    text-align: center;
+    margin-top:100px;
+    color: black;
+    
+   
+}
+
+.bg_marcash1 .border{
+   background-color: var(--second);
+   height: 7px;
+   width: 33%;
+   margin-top: -10px;
+   margin-left: 15%;
+   margin-bottom: 10px;
+}
+
+/* BORDAS DEGRADE */
+
+
+.borda_solucoes_cima{
+    height: 4px;
+    background-image: linear-gradient(to right, #29eef5 , #1d8bdf);
+    margin-top: 0px;
+}
+
+.borda_servico_cima{
+    height: 4px;
+    background-image: linear-gradient(to right, #29eef5 , #1d8bdf);
+    margin-top:0px;
+}
+
+.borda_marca1{
+    height: 4px;
+    background-image: linear-gradient(to right, #29eef5 , #1d8bdf);
+    margin-top: -18px;
+}
+
+.borda_marca2{
+    height: 4px;
+    background-image: linear-gradient(to right, #29eef5 , #1d8bdf);
+    margin-top: 0px;
+    margin-bottom: -30px;
+}
+
+
+
+
+/* AJUSTAR QUANDO A TELA FOR GRANDE */
+@media only screen and (min-width: 600px) {
+    .imagem_ajuste{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+.agencia_inove{
+    background-color: #0d3673;
+}
+
+.agencia_inove_espacamento{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.agencia_inove img{
+   border-radius: 60px;
+   transition: all 0.9s;
+   max-height: 300px;
+   margin-top: -70px;
+   margin-left: 20%;
+}
+
+.agencia_inove img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+	transition: all 0.9s;
+ }
+
+.agencia_inove h1{ 
+   margin-left: 20px;
+   color: #fff;
+   font-family: 'Roboto', 'sans-serif';
+   font-weight: 600;
+   font-size: 32px;
+}
+
+.agencia_inove p{ 
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 100px;
+    color: #fff;
+ }
+
+.agencia_inove .borda{ 
+    background-image: linear-gradient(to right, #29eef5 , #1d8bdf);
+    height: 5px;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border-radius: 5rem;
+    border: 0px solid #dee2e6!important;
+ }
+
+
+ /* FINAL DO HOME --- QUEM CONFIA */
+
+    .confia-content{
+        background-image: url('./image/wallpaperconfia.png');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        padding-top: 100px;
+        margin-top: -14px;
+    }
+ 
+    .confia-content img{
+       max-height: 100px;
+       filter: grayscale(80%);
+       opacity: 0.7;
+    }
+ 
+    .confia-content-title{
+        color:white;
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 500;
+        font-size: 32px;
+        margin-top: -30px;
+        text-align: center;
+    }
+ 
+    .confia-content-title strong{
+        color: #56e3e8;
+    }
+ 
+    .confia-content-text{
+        color:white;
+        font-size: 16px;
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 300;
+    }
+ 
+    .confia-content .borda{
+        background-image: linear-gradient(to right, #29eef5 , #1d8bdf);
+        height: 5px;
+        margin-left: 40%;
+        margin-right: 40%;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5rem;
+        border: 0px solid #dee2e6!important;
+    }
+
+ /* */
+
+ 
+/* AJUSTAR QUANDO A TELA FOR MENOR */
+@media only screen and (max-width: 600px) {
+
+    .confia-content .borda{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .agencia_inove h1{ 
+        margin-top: 15px;
+    }
+    .agencia_inove img{
+        display: none;
+    }
+    .ajustar_carousel{
+        height: 350px !important;
+    }
+
+    .bg_marcas h1{
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .ajuste_logo img{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .borda_servicos_cima{
+        height: 4px;
+        background-image: linear-gradient(to right, #29eef5 , #1d8bdf);
+        margin-top: -244px;
+    }
+
+    .agencia_inove img{
+        margin-left: 10%;
+     }
+}

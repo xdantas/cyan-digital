@@ -1,0 +1,56 @@
+:root {
+    --primary: #3ca6f8;
+    --second: #56e3e8;
+    --third: #000000d8;
+    --white:rgb(240, 231, 231);
+}
+
+html { 
+    font-family: 'Roboto', 'sans-serif'
+    }
+
+.footer{
+    background-color: var(--third);
+}
+.titlefooter{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.espacamento{
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.espacamento{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    max-width: 300px
+}
+
+}
+.text_footer{
+    margin-top:30px;
+    margin-right: 20%;
+    align-content: center;
+    text-align: left;
+    color:white;
+}
+.contact_footer{
+    color:white;
+}
+
+.centralizar{
+    text-align: center;
+    padding: 0px;
+}
+.list-unstyled{
+    margin-top:10px;
+}
+
+.footer-content{
+    background-image: url(./image/wallpaper-footer.png);
+    max-height: 500px;
+}

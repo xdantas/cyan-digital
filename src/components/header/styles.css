@@ -1,0 +1,28 @@
+html { 
+    font-family: 'Roboto', 'sans-serif'
+    }
+
+.img_logo_nav{
+    max-height: 40px;
+    margin: 2px;
+    margin-left: 80px;
+}
+
+.espacamento-direita{
+    margin-right: 80px;
+}
+
+.navbar{
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0) !important;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .teste{
+    background-color: #212121;
+    }
+
+    .img_logo_nav{
+        margin-left: 10px;
+    }
+}
